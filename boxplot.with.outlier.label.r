@@ -195,7 +195,7 @@ segement_width_as_percent_of_label_dist = .45, # Change this if you want to have
 			move_text_right <- strwidth(current_label) * push_text_right
 			text( temp_x+move_text_right, temp_y_new, current_label, col = label.col)			
 			# strwidth
-			segments( temp_x+(move_text_right/6), temp_y, temp_x+(move_text_right*segement_width_as_percent_of_label_dist), temp_y_new )
+			# segments( temp_x+(move_text_right/6), temp_y, temp_x+(move_text_right*segement_width_as_percent_of_label_dist), temp_y_new )
 		} else {
 			text(temp_x, temp_y, current_label, pos = 4, col = label.col)
 		}		
